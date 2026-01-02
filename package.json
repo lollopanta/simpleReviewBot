@@ -1,0 +1,26 @@
+{
+  "name": "lollopantabot",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/lollopanta/simpleReviewBot#readme",
+  "bugs": {
+    "url": "https://github.com/lollopanta/simpleReviewBot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lollopanta/simpleReviewBot.git"
+  },
+  "license": "BSD-3-Clause" ,
+  "author": "lollopanta",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.6.1",
+    "mongoose": "^9.1.1"
+  }
+}
